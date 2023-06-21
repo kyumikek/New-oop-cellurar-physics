@@ -1,7 +1,7 @@
-from engine.engine import *
+from .engine import *
 import sys
 import pygame
-from engine.controller import *
+from .controller import *
 screen = pygame.display.set_mode((600,800))
 wait = 0
 waitTime = 0

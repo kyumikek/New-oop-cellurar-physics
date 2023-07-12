@@ -1,4 +1,4 @@
-from .engine import *
+from engine import *
 
 class controller:
     def __init__(self,x,y,speed,mass):
